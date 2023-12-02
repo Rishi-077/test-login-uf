@@ -1,0 +1,154 @@
+.login_container {
+  width: 100%;
+  height: 100%;
+}
+
+.login_section_div {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.login_bg_1 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.login_bg_1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.login_bg_2 {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  transform: translate(-100%, 0%);
+}
+
+/* card */
+
+.login_card {
+  width: 80%;
+  height: auto;
+  border: none !important;
+  border-radius: 30px !important;
+  margin: auto;
+}
+
+.login_h5 {
+  color: #155fa3;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.input_div input {
+  padding: 20px 40px !important;
+  border-radius: 30px;
+  border: 1px solid #d0d0d0 !important;
+}
+
+.input_div input::placeholder {
+  color: 1px solid #d0d0d0 !important;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+}
+
+.checkbox_div input[type="checkbox"] {
+  border: 1px solid #000 !important;
+  border-radius: 0px !important;
+}
+
+.submit_btn {
+  padding: 15px 70px !important;
+  border-radius: 40px !important;
+  border: 1px solid #fcc803;
+  background: var(
+    --btn-yellow,
+    linear-gradient(75deg, #ffc107 44.85%, #fbcd00 94.37%)
+  ) !important;
+  box-shadow: 0px 4px 4px 0px #ffc107 !important;
+  font-size: small !important;
+  font-weight: 600 !important;
+}
+
+.submit_btn:hover {
+  padding: 15px 70px !important;
+  border-radius: 40px !important;
+  border: 1px solid #293576;
+  background: var(
+    --btn-hover,
+    linear-gradient(180deg, #192048 0%, #2c397f 100%)
+  ) !important;
+  box-shadow: 0px 4px 4px 0px #26316e !important;
+  color: #ffc107 !important;
+}
+
+.forgot_link {
+  text-decoration: none !important;
+  font-weight: 400 !important;
+}
+
+.card_body {
+  padding: 0px !important;
+}
+
+.card_img_section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.card_img_div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.card_img_div img {
+  width: 100%;
+  height: 100%;
+}
+
+.card_content_div {
+  width: 70%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+.card_content_div h6 {
+  color: #000 !important;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.card_content_div p {
+  color: #000 !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.copyright {
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .login_card {
+    width: 90%;
+    height: auto;
+    border: none !important;
+    border-radius: 30px !important;
+    margin: auto;
+  }
+}
